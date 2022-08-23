@@ -38,21 +38,21 @@ devices("Joystick",9,8,7,ip1="mouse",ip2="keyboard")
 # To print numbers in ascending order using Function
 
 def asc():
- print("Input seven integers:")
- nums = list(map(int, input().split()))
- nums.sort()
+ print("Input some integers sapartaed by space : ")
+ nums = list(map(int, input().split()))             # nums variable having mapped splitted input of type int list.
+ nums.sort()                                        # sorts integers in list.
  print("Entered Numbers in Ascending orders are :")
- print(*nums)
+ print(*nums)                                       #prints sorted list itegers or values.
 asc()
 
 # To print numbers in descending order using Function
 
 def desc():
- print("Input seven integers:")
- nums = list(map(int, input().split()))
- nums.sort()
- nums.reverse()
+ print("Input some integers sapartaed by space : ")
+ nums = list(map(int, input().split()))           # nums variable having mapped splitted input of type int list.
+ nums.sort()                                      # sorts integers in list.
+ nums.reverse()                                   # reverse orders of integers in variable nums.
  print("Entered Numbers in Descending orders are :")
- print(*nums)
+ print(*nums)                                     #prints reversed sorted list itegers or values.
 desc()
 
